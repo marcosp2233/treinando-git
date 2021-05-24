@@ -24,7 +24,15 @@
             }
 
             return somaNotas / notas.length
-        }     
+        }   
+
+        function mostraMedia(media) {
+            alert(media.toFixed(2))
+        }  
+
+        notas = cadastraNotas()
+        media = calculaMedia(notas)
+        mostraMedia(media)
 
     </script>
 </body>
